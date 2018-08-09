@@ -10,6 +10,7 @@ var express = require("express"),
     User = require("./models/user"),
     methodOverride = require("method-override"),
     flash = require("connect-flash");
+    
 // Requiring routes
 var commentRoutes = require("./Routes/comments");
 var campgroundRoutes = require("./Routes/campgrounds");
